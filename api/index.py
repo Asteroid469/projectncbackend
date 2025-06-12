@@ -6,11 +6,9 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 
-TITLE_ID = "titleid"
-SECRET_KEY = "	
-GHX74T9JWT7DX7JSNCCTJNF6AIJXPI149ROOU6S57BG5IUE8XA"
-API_KEY = "
-OC|9219350364832667|3d77526c718dde5da5ab2fa2c7420fb2"
+TITLE_ID = "1D097"
+SECRET_KEY = "GHX74T9JWT7DX7JSNCCTJNF6AIJXPI149ROOU6S57BG5IUE8XA"
+API_KEY = "9219350364832667"
 
 def get_auth_headers():
     return {"Content-Type": "application/json", "X-SecretKey": SECRET_KEY}
